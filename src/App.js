@@ -12,8 +12,10 @@ export default function App() {
   const provider = new Web3Provider(window.ethereum);
 
   const addresses = {
-    nounsDescriptor: "0x0Cfdb3Ba1694c2bb2CFACB0339ad7b1Ae5932B63",
-    nounsSeeder: "0xCC8a0FB5ab3C7132c1b2A0109142Fb112c4Ce515"
+    nounsDescriptor: "0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0",
+    //0x0Cfdb3Ba1694c2bb2CFACB0339ad7b1Ae5932B63",
+    nounsSeeder: "0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9"
+    //0xCC8a0FB5ab3C7132c1b2A0109142Fb112c4Ce515"
   };
 
   const contracts = {
